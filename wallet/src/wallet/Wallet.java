@@ -43,15 +43,15 @@ public class wallet{
     
     Thread one = new Thread(() -> {
         
-//        obj.deposit(500);
-//        obj.deposit(550);
-//        obj.withdraw(750);
+       obj.deposit(500);
+       obj.deposit(550);
+       obj.withdraw(750);
     });
     Thread two = new Thread(() -> {
       
-//        obj.withdraw(750);
-//        obj.deposit(600);
-//        obj.deposit(500);
+       obj.withdraw(750);
+       obj.deposit(600);
+       obj.deposit(500);
       
     });
     Thread three = new Thread(() -> {
